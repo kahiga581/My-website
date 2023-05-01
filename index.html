@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hildah Muthoni &mdash; Software Developer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+      /* Modern Software Developer Design - Elegant Teal & Coral */
+      :root {
+        --primary-color: #14b8a6;
+        --secondary-color: #0d9488;
+        --accent-color: #f97316;
+        --dark-bg: #0f172a;
+        --light-bg: #f1f5f9;
+      }
+      
+      #home-section,
+      .site-blocks-cover,
+      .site-blocks-cover.overlay,
+      div.site-blocks-cover.overlay.bg-light,
+      .site-blocks-cover::before,
+      .site-blocks-cover::after,
+      .site-blocks-cover.overlay::before,
+      .site-blocks-cover.overlay::after {
+        background-image: none !important;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%) !important;
+        background-size: auto !important;
+        background-repeat: no-repeat !important;
+        background-position: unset !important;
+        position: relative;
+      }
+      
+      #home-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(20, 184, 166, 0.1) 0%, rgba(249, 115, 22, 0.1) 100%);
+        z-index: 0;
+      }
+      
+      .site-blocks-cover h1 {
+        color: #fff !important;
+        font-weight: 700;
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        position: relative;
+        z-index: 1;
+      }
+      
+      .site-blocks-cover .lead {
+        color: rgba(255,255,255,0.9) !important;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .site-blocks-cover .text-intro {
+        position: relative;
+        z-index: 1;
+      }
+      
+      .service {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-left: 4px solid transparent;
+        background: #fff;
+        border-radius: 8px;
+      }
+      
+      .service:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 40px rgba(20, 184, 166, 0.15) !important;
+        border-left-color: #14b8a6;
+      }
+      
+      .service-number span {
+        background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%) !important;
+        box-shadow: 0 4px 15px rgba(20, 184, 166, 0.3);
+      }
+      
+      .btn-primary {
+        background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+        border: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(20, 184, 166, 0.3);
+        border-radius: 6px;
+      }
+      
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(20, 184, 166, 0.4);
+        background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%);
+      }
+      
+      .btn-light {
+        border-radius: 6px;
+        transition: all 0.3s ease;
+      }
+      
+      .btn-light:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+      
+      .section-title:after {
+        background: linear-gradient(135deg, #14b8a6 0%, #f97316 100%) !important;
+        width: 60px;
+        height: 3px;
+        display: block;
+      }
+      
+      .progress-bar {
+        background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%) !important;
+        border-radius: 4px;
+      }
+      
+      .card {
+        transition: all 0.3s ease;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      
+      .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 40px rgba(20, 184, 166, 0.15) !important;
+      }
+      
+      .site-section.bg-primary {
+        background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%) !important;
+      }
+      
+      .site-section.bg-light {
+        background: #f8fafc !important;
+      }
+      
+      .text-primary {
+        color: #14b8a6 !important;
+      }
+      
+      .btn-outline-primary {
+        border-color: #14b8a6;
+        color: #14b8a6;
+        border-radius: 6px;
+      }
+      
+      .btn-outline-primary:hover {
+        background: #14b8a6;
+        border-color: #14b8a6;
+        color: #fff;
+        transform: translateY(-2px);
+      }
+    </style>
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+          
+          <div class="">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#services-section" class="nav-link">Skills</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class=" text-center mx-5">
+            <h1 class="m-0 site-logo"><a href="index.html">HM</a></h1>
+          </div>
+
+          <div class="text-left">
+
+            <nav class="site-navigation position-relative" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#portfolio-section" class="nav-link">Projects</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+
+
+            <div class="d-inline-block d-lg-none" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+      
+    </header>
+
+
+    <div class="site-blocks-cover overlay" id="home-section" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%) !important;">
+
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+
+          <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
+            <div class="row align-items-center">
+              <div class="col-lg-7">
+                <h1 class="text-white mb-3">I'm Hildah Muthoni</h1>
+                <p class="text-white mb-4" style="font-size: 1.5rem; font-weight: 300;">Software Developer <span class="mx-3">|</span> Cloud-Native Solutions</p>
+                <p class="lead text-white mb-4">Passionate Software Developer specializing in building scalable, cloud-native applications. Expert in modern web technologies, cloud platforms, and full-stack development. Creating innovative solutions that leverage the power of cloud computing and cutting-edge software engineering practices.</p>
+                <div class="mb-4">
+                  <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-light mr-3 mb-2">
+                    <span class="icon-github mr-2"></span>View GitHub
+                  </a>
+                  <a href="#contact-section" class="btn smoothscroll btn-primary mb-2">Contact Me</a>
+                </div>
+              </div>
+              <div class="col-lg-5 text-center">
+                <div class="mt-5 mt-lg-0">
+                  <span class="icon-code" style="font-size: 8rem; color: rgba(255,255,255,0.3); display: block;"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+      
+    </div>  
+
+    <div class="site-section bg-light" id="services-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5">Software Development Skills</h2>
+            <p class="text-center text-muted">Full-stack development expertise with cloud-native focus</p>
+          </div>
+    
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-code"></span></div>
+              <div class="service-about">
+                <h3>Full-Stack Development</h3>
+                <p>Expert in JavaScript, TypeScript, React, Node.js, and modern web frameworks. Building responsive, scalable applications with clean code and best practices.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-cloud"></span></div>
+              <div class="service-about">
+                <h3>Cloud-Native Development</h3>
+                <p>Developing applications optimized for cloud platforms (AWS, Azure, GCP). Experience with serverless architectures, microservices, and containerization using Docker and Kubernetes.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-database"></span></div>
+              <div class="service-about">
+                <h3>Database & Backend</h3>
+                <p>Designing and implementing RESTful APIs, GraphQL endpoints, and database solutions. Working with SQL, NoSQL databases, and cloud database services.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-cog"></span></div>
+              <div class="service-about">
+                <h3>DevOps & CI/CD</h3>
+                <p>Implementing automated deployment pipelines, version control with Git, and continuous integration/continuous deployment workflows. Experience with GitHub Actions, Jenkins, and cloud CI/CD tools.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-server"></span></div>
+              <div class="service-about">
+                <h3>Cloud Services Integration</h3>
+                <p>Integrating applications with cloud services including AWS Lambda, S3, API Gateway, and cloud storage solutions. Building scalable, cost-effective cloud applications.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-signal"></span></div>
+              <div class="service-about">
+                <h3>Modern Development Practices</h3>
+                <p>Agile methodologies, test-driven development, code reviews, and documentation. Focus on maintainable, scalable code and collaborative development workflows.</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="site-section" id="about-section">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 mb-4 position-relative">
+            <h2 class="section-title">About Me</h2>
+          </div>
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="mb-4 text-center">
+              <span class="icon-code" style="font-size: 10rem; color: #14b8a6; display: block; opacity: 0.4;"></span>
+            </div>
+            <p class="lead">I'm a Software Developer passionate about creating innovative, scalable solutions. I specialize in full-stack development with a strong focus on cloud-native applications and modern web technologies.</p>
+            <p>With expertise in JavaScript, TypeScript, React, Node.js, and cloud platforms, I build applications that are performant, maintainable, and scalable. I'm committed to writing clean code, following best practices, and continuously learning new technologies.</p>
+            <p>My experience spans from frontend development to backend services, cloud integration, and DevOps practices. I enjoy solving complex problems and creating user-friendly applications that leverage the power of cloud computing.</p>
+            <p class="mt-4">
+              <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-primary mr-2">
+                <span class="icon-github mr-2"></span>View GitHub
+              </a>
+              <a href="#contact-section" class="btn btn-outline-primary">Get In Touch</a>
+            </p>
+          </div>
+          <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
+            <h3 class="mb-4">Technical Proficiency</h3>
+            <div class="mb-5">
+              <strong class="text-black">JavaScript & TypeScript</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 94%;">
+                  <span>94%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <strong class="text-black">React & Frontend Frameworks</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 91%;">
+                  <span>91%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <strong class="text-black">Node.js & Backend Development</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 89%;">
+                  <span>89%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <strong class="text-black">Cloud Platforms (AWS, Azure, GCP)</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 87%;">
+                  <span>87%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <strong class="text-black">Database & APIs (SQL, NoSQL, REST, GraphQL)</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 90%;">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <strong class="text-black">DevOps & CI/CD (Git, Docker, Kubernetes)</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 85%;">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+
+    
+
+    <section class="site-section block__62272" id="portfolio-section">
+      
+
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 position-relative">
+            <h2 class="section-title text-center mb-5">Software Development Projects</h2>
+            <p class="text-center mb-5">Explore my software development work on GitHub: <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="text-primary">github.com/Hildahmuthoni/My-website</a></p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <span class="icon-code" style="font-size: 4rem; color: #14b8a6; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">Web Applications</h4>
+                <p class="text-muted">Full-stack web applications built with React, Node.js, and modern JavaScript frameworks. Responsive designs and cloud-integrated solutions.</p>
+                <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <span class="icon-cloud" style="font-size: 4rem; color: #14b8a6; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">Cloud-Native Apps</h4>
+                <p class="text-muted">Applications designed for cloud deployment with serverless functions, containerization, and cloud service integration. Scalable and cost-effective solutions.</p>
+                <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <span class="icon-database" style="font-size: 4rem; color: #14b8a6; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">APIs & Backend Services</h4>
+                <p class="text-muted">RESTful APIs, GraphQL endpoints, and backend services. Database design, authentication, and cloud-based data management solutions.</p>
+                <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+
+    </section>
+
+
+    <section class="site-section bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center mb-5 text-white">Technologies & Tools</h2>
+            <p class="text-center text-white mb-5">Modern development stack with cloud integration</p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-3 mb-4">
+            <div class="text-white">
+              <span class="icon-code" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
+              <h4 class="mb-3">Frontend</h4>
+              <p class="text-white-50">React, JavaScript, TypeScript, HTML5, CSS3</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="text-white">
+              <span class="icon-server" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
+              <h4 class="mb-3">Backend</h4>
+              <p class="text-white-50">Node.js, Express, REST APIs, GraphQL</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="text-white">
+              <span class="icon-cloud" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
+              <h4 class="mb-3">Cloud Platforms</h4>
+              <p class="text-white-50">AWS, Azure, GCP, Serverless, Containers</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="text-white">
+              <span class="icon-cog" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
+              <h4 class="mb-3">DevOps Tools</h4>
+              <p class="text-white-50">Git, Docker, Kubernetes, CI/CD, GitHub Actions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+
+    <section class="site-section bg-primary" id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5 position-relative">
+            <h2 class="section-title text-center text-white mb-5">Get In Touch</h2>
+            <p class="text-center text-white mb-4">Interested in AWS cloud solutions? Let's connect!</p>
+          </div>
+        </div>
+        <form action="#" class="form">
+          <div class="row mb-4">
+            <div class="form-group col-6">
+              <input type="text" class="form-control" placeholder="First name">
+            </div>
+            <div class="form-group col-6">
+              <input type="text" class="form-control" placeholder="Full name">
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="form-group col-12">
+              <input type="email" class="form-control" placeholder="Email address">
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="form-group col-12">
+              <input type="text" class="form-control" placeholder="Subject of the message">
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="form-group col-12">
+              <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Type your message here.."></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <input type="submit" class="btn btn-dark" value="Send Message">
+            </div>
+          </div>
+          
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-section bg-light footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4">
+            <h3 class="footer-title">Hildah Muthoni</h3>
+            <p>Software Developer specializing in full-stack development and cloud-native applications.</p>
+            <p>Building innovative, scalable solutions with modern technologies.</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="footer-title">Development Skills</h3>
+            <ul class="list-unstyled">
+              <li>✓ Full-Stack Development (React, Node.js)</li>
+              <li>✓ Cloud-Native Applications</li>
+              <li>✓ RESTful APIs & GraphQL</li>
+              <li>✓ Database Design & Management</li>
+              <li>✓ DevOps & CI/CD</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3 class="footer-title">Connect</h3>
+            <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="social-circle p-2"><span class="icon-github"></span></a>
+            <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="d-block mt-2 text-dark">github.com/Hildahmuthoni/My-website</a>
+            <p class="mt-3 text-muted">Let's create something amazing together!</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> Hildah Muthoni. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  
+  <script src="js/main.js"></script>
+
+  <script>
+    // Force remove background image from header - multiple attempts
+    function removeBackgroundImage() {
+      var header = document.getElementById('home-section');
+      if (header) {
+        // Remove background image
+        header.style.setProperty('background-image', 'none', 'important');
+        header.style.setProperty('background', '#f8f9fa', 'important');
+        header.style.backgroundImage = 'none';
+        header.style.background = '#f8f9fa';
+        
+        // Also check computed style and force override
+        var computedStyle = window.getComputedStyle(header);
+        if (computedStyle.backgroundImage && computedStyle.backgroundImage !== 'none') {
+          header.style.setProperty('background-image', 'none', 'important');
+        }
+      }
+    }
+    
+    // Run immediately
+    removeBackgroundImage();
+    
+    // Run on DOM ready
+    document.addEventListener('DOMContentLoaded', function() {
+      removeBackgroundImage();
+      setTimeout(removeBackgroundImage, 50);
+      setTimeout(removeBackgroundImage, 100);
+      setTimeout(removeBackgroundImage, 200);
+    });
+    
+    // Run after window load
+    window.addEventListener('load', function() {
+      removeBackgroundImage();
+      setTimeout(removeBackgroundImage, 100);
+    });
+    
+    // Continuously check and remove (in case something keeps setting it)
+    setInterval(function() {
+      var header = document.getElementById('home-section');
+      if (header) {
+        var bg = window.getComputedStyle(header).backgroundImage;
+        if (bg && bg !== 'none' && bg.includes('credo_img')) {
+          header.style.setProperty('background-image', 'none', 'important');
+          header.style.setProperty('background', '#f8f9fa', 'important');
+        }
+      }
+    }, 500);
+  </script>
+  
+  </body>
+</html>

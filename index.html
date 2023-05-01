@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hildah Muthoni &mdash; Software Developer</title>
+    <title>kahiga king'ori &mdash; Cloud Security</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -25,13 +25,14 @@
     <link rel="stylesheet" href="css/style.css">
     
     <style>
-      /* Modern Software Developer Design - Elegant Teal & Coral */
+      /* Cloud Security Professional Design - Firewall Theme */
       :root {
-        --primary-color: #14b8a6;
-        --secondary-color: #0d9488;
-        --accent-color: #f97316;
-        --dark-bg: #0f172a;
-        --light-bg: #f1f5f9;
+        --primary-color: #dc2626;
+        --secondary-color: #b91c1c;
+        --accent-color: #f59e0b;
+        --security-color: #10b981;
+        --dark-bg: #111827;
+        --light-bg: #f9fafb;
       }
       
       #home-section,
@@ -43,7 +44,7 @@
       .site-blocks-cover.overlay::before,
       .site-blocks-cover.overlay::after {
         background-image: none !important;
-        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%) !important;
+        background: linear-gradient(135deg, #111827 0%, #1f2937 40%, #374151 100%) !important;
         background-size: auto !important;
         background-repeat: no-repeat !important;
         background-position: unset !important;
@@ -57,20 +58,23 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(135deg, rgba(20, 184, 166, 0.1) 0%, rgba(249, 115, 22, 0.1) 100%);
+        background: 
+          radial-gradient(circle at 25% 40%, rgba(220, 38, 38, 0.2) 0%, transparent 50%),
+          radial-gradient(circle at 75% 60%, rgba(245, 158, 11, 0.15) 0%, transparent 50%),
+          radial-gradient(circle at 50% 80%, rgba(16, 185, 129, 0.1) 0%, transparent 50%);
         z-index: 0;
       }
       
       .site-blocks-cover h1 {
         color: #fff !important;
         font-weight: 700;
-        text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
         position: relative;
         z-index: 1;
       }
       
       .site-blocks-cover .lead {
-        color: rgba(255,255,255,0.9) !important;
+        color: rgba(255,255,255,0.95) !important;
         position: relative;
         z-index: 1;
       }
@@ -84,90 +88,128 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         border-left: 4px solid transparent;
         background: #fff;
-        border-radius: 8px;
+        border-radius: 12px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
       }
       
       .service:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 40px rgba(20, 184, 166, 0.15) !important;
-        border-left-color: #14b8a6;
+        transform: translateY(-10px);
+        box-shadow: 0 20px 50px rgba(220, 38, 38, 0.25) !important;
+        border-left-color: #dc2626;
+        border-color: #dc2626;
       }
       
       .service-number span {
-        background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%) !important;
-        box-shadow: 0 4px 15px rgba(20, 184, 166, 0.3);
+        background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%) !important;
+        box-shadow: 0 4px 20px rgba(220, 38, 38, 0.5);
       }
       
       .btn-primary {
-        background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+        background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
         border: none;
         transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(20, 184, 166, 0.3);
-        border-radius: 6px;
+        box-shadow: 0 4px 20px rgba(220, 38, 38, 0.4);
+        border-radius: 10px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
       }
       
       .btn-primary:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(20, 184, 166, 0.4);
-        background: linear-gradient(135deg, #0d9488 0%, #14b8a6 100%);
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(220, 38, 38, 0.6);
+        background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
       }
       
       .btn-light {
-        border-radius: 6px;
+        border-radius: 10px;
         transition: all 0.3s ease;
+        font-weight: 600;
+        letter-spacing: 0.5px;
       }
       
       .btn-light:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        background: #fff;
       }
       
       .section-title:after {
-        background: linear-gradient(135deg, #14b8a6 0%, #f97316 100%) !important;
-        width: 60px;
-        height: 3px;
+        background: linear-gradient(135deg, #dc2626 0%, #f59e0b 100%) !important;
+        width: 80px;
+        height: 4px;
         display: block;
+        border-radius: 2px;
       }
       
       .progress-bar {
-        background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%) !important;
+        background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%) !important;
         border-radius: 4px;
+        box-shadow: 0 2px 8px rgba(220, 38, 38, 0.3);
       }
       
       .card {
         transition: all 0.3s ease;
-        border-radius: 12px;
+        border-radius: 16px;
         overflow: hidden;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
       }
       
       .card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 15px 40px rgba(20, 184, 166, 0.15) !important;
+        transform: translateY(-10px);
+        box-shadow: 0 20px 50px rgba(220, 38, 38, 0.2) !important;
+        border-color: #dc2626;
       }
       
       .site-section.bg-primary {
-        background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%) !important;
+        background: linear-gradient(135deg, #1f2937 0%, #374151 100%) !important;
       }
       
       .site-section.bg-light {
-        background: #f8fafc !important;
+        background: #f9fafb !important;
       }
       
       .text-primary {
-        color: #14b8a6 !important;
+        color: #dc2626 !important;
       }
       
       .btn-outline-primary {
-        border-color: #14b8a6;
-        color: #14b8a6;
-        border-radius: 6px;
+        border-color: #dc2626;
+        color: #dc2626;
+        border-radius: 10px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        border-width: 2px;
       }
       
       .btn-outline-primary:hover {
-        background: #14b8a6;
-        border-color: #14b8a6;
+        background: #dc2626;
+        border-color: #dc2626;
         color: #fff;
-        transform: translateY(-2px);
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(220, 38, 38, 0.4);
+      }
+      
+      .security-badge {
+        display: inline-block;
+        padding: 6px 16px;
+        background: linear-gradient(135deg, rgba(220, 38, 38, 0.15) 0%, rgba(245, 158, 11, 0.15) 100%);
+        color: #f59e0b;
+        border-radius: 25px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        border: 2px solid rgba(245, 158, 11, 0.4);
+        text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        letter-spacing: 0.5px;
+      }
+      
+      .site-logo a {
+        background: linear-gradient(135deg, #dc2626 0%, #f59e0b 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-weight: 800;
       }
     </style>
     
@@ -203,7 +245,7 @@
           </div>
 
           <div class=" text-center mx-5">
-            <h1 class="m-0 site-logo"><a href="index.html">HM</a></h1>
+            <h1 class="m-0 site-logo"><a href="index.html">KK</a></h1>
           </div>
 
           <div class="text-left">
@@ -226,7 +268,7 @@
     </header>
 
 
-    <div class="site-blocks-cover overlay" id="home-section" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%) !important;">
+    <div class="site-blocks-cover overlay" id="home-section" style="background: linear-gradient(135deg, #111827 0%, #1f2937 40%, #374151 100%) !important;">
 
       <div class="container">
         <div class="row justify-content-center align-items-center">
@@ -234,11 +276,12 @@
           <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
             <div class="row align-items-center">
               <div class="col-lg-7">
-                <h1 class="text-white mb-3">I'm Hildah Muthoni</h1>
-                <p class="text-white mb-4" style="font-size: 1.5rem; font-weight: 300;">Software Developer <span class="mx-3">|</span> Cloud-Native Solutions</p>
-                <p class="lead text-white mb-4">Passionate Software Developer specializing in building scalable, cloud-native applications. Expert in modern web technologies, cloud platforms, and full-stack development. Creating innovative solutions that leverage the power of cloud computing and cutting-edge software engineering practices.</p>
+                <h1 class="text-white mb-3">I'm kahiga king'ori</h1>
+                <p class="text-white mb-3" style="font-size: 1.5rem; font-weight: 300;">Cloud Security Specialist <span class="mx-3">|</span> Security Architect</p>
+                <span class="security-badge mb-4">🔥 You Light My Fire(wall)</span>
+                <p class="lead text-white mb-4">Expert Cloud Security professional specializing in securing cloud infrastructure, implementing comprehensive security frameworks, and protecting digital assets. Passionate about building resilient, secure cloud environments using advanced security practices, compliance standards, and cutting-edge security technologies.</p>
                 <div class="mb-4">
-                  <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-light mr-3 mb-2">
+                  <a href="https://github.com/kahiga581" target="_blank" class="btn btn-light mr-3 mb-2">
                     <span class="icon-github mr-2"></span>View GitHub
                   </a>
                   <a href="#contact-section" class="btn smoothscroll btn-primary mb-2">Contact Me</a>
@@ -246,7 +289,7 @@
               </div>
               <div class="col-lg-5 text-center">
                 <div class="mt-5 mt-lg-0">
-                  <span class="icon-code" style="font-size: 8rem; color: rgba(255,255,255,0.3); display: block;"></span>
+                  <span class="icon-shield" style="font-size: 8rem; color: rgba(220, 38, 38, 0.4); display: block;"></span>
                 </div>
               </div>
             </div>
@@ -261,16 +304,26 @@
       <div class="container">
         <div class="row ">
           <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5">Software Development Skills</h2>
-            <p class="text-center text-muted">Full-stack development expertise with cloud-native focus</p>
+            <h2 class="section-title text-center mb-5">Cloud Security Expertise</h2>
+            <p class="text-center text-muted">Comprehensive cloud security knowledge and protection strategies</p>
           </div>
     
           <div class="col-md-6 mb-4">
             <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-code"></span></div>
+              <div class="service-number mr-4"><span class="icon-shield"></span></div>
               <div class="service-about">
-                <h3>Full-Stack Development</h3>
-                <p>Expert in JavaScript, TypeScript, React, Node.js, and modern web frameworks. Building responsive, scalable applications with clean code and best practices.</p>
+                <h3>Kubernetes Security</h3>
+                <p>Expert in securing Kubernetes clusters, implementing network policies, RBAC, Pod Security Standards, and container security. Experience with Minikube, AKS, and Kubernetes security best practices.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-md-6 mb-4">
+            <div class="service d-flex h-100">
+              <div class="service-number mr-4"><span class="icon-key"></span></div>
+              <div class="service-about">
+                <h3>Certificate & TLS Management</h3>
+                <p>Implementing cert-manager for automated TLS certificate provisioning and management in Kubernetes. Ensuring secure communication, encryption, and certificate lifecycle management.</p>
               </div>
             </div>
           </div>
@@ -279,28 +332,28 @@
             <div class="service d-flex h-100">
               <div class="service-number mr-4"><span class="icon-cloud"></span></div>
               <div class="service-about">
-                <h3>Cloud-Native Development</h3>
-                <p>Developing applications optimized for cloud platforms (AWS, Azure, GCP). Experience with serverless architectures, microservices, and containerization using Docker and Kubernetes.</p>
+                <h3>Cloud Security Architecture</h3>
+                <p>Designing and implementing secure cloud infrastructures across AWS, Azure, and GCP. Expertise in security frameworks, zero-trust architectures, and defense-in-depth strategies.</p>
               </div>
             </div>
           </div>
     
           <div class="col-md-6 mb-4">
             <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-database"></span></div>
+              <div class="service-number mr-4"><span class="icon-lock"></span></div>
               <div class="service-about">
-                <h3>Database & Backend</h3>
-                <p>Designing and implementing RESTful APIs, GraphQL endpoints, and database solutions. Working with SQL, NoSQL databases, and cloud database services.</p>
+                <h3>Identity & Access Management</h3>
+                <p>Implementing IAM policies, role-based access control (RBAC), multi-factor authentication (MFA), and privileged access management. Ensuring least privilege principles and secure authentication mechanisms.</p>
               </div>
             </div>
           </div>
     
           <div class="col-md-6 mb-4">
             <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-cog"></span></div>
+              <div class="service-number mr-4"><span class="icon-eye"></span></div>
               <div class="service-about">
-                <h3>DevOps & CI/CD</h3>
-                <p>Implementing automated deployment pipelines, version control with Git, and continuous integration/continuous deployment workflows. Experience with GitHub Actions, Jenkins, and cloud CI/CD tools.</p>
+                <h3>Security Monitoring & Threat Detection</h3>
+                <p>Setting up CloudWatch, CloudTrail, Security Hub, and SIEM solutions. Implementing real-time threat detection, security incident response, and security analytics for cloud environments.</p>
               </div>
             </div>
           </div>
@@ -309,18 +362,8 @@
             <div class="service d-flex h-100">
               <div class="service-number mr-4"><span class="icon-server"></span></div>
               <div class="service-about">
-                <h3>Cloud Services Integration</h3>
-                <p>Integrating applications with cloud services including AWS Lambda, S3, API Gateway, and cloud storage solutions. Building scalable, cost-effective cloud applications.</p>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col-md-6 mb-4">
-            <div class="service d-flex h-100">
-              <div class="service-number mr-4"><span class="icon-signal"></span></div>
-              <div class="service-about">
-                <h3>Modern Development Practices</h3>
-                <p>Agile methodologies, test-driven development, code reviews, and documentation. Focus on maintainable, scalable code and collaborative development workflows.</p>
+                <h3>Serverless & Container Security</h3>
+                <p>Securing serverless functions (Fission), containerized applications, and microservices architectures. Implementing security best practices for serverless deployments and container orchestration.</p>
               </div>
             </div>
           </div>
@@ -339,22 +382,40 @@
           </div>
           <div class="col-lg-6 order-2 order-lg-1">
             <div class="mb-4 text-center">
-              <span class="icon-code" style="font-size: 10rem; color: #14b8a6; display: block; opacity: 0.4;"></span>
+              <span class="icon-shield" style="font-size: 10rem; color: #dc2626; display: block; opacity: 0.4;"></span>
             </div>
-            <p class="lead">I'm a Software Developer passionate about creating innovative, scalable solutions. I specialize in full-stack development with a strong focus on cloud-native applications and modern web technologies.</p>
-            <p>With expertise in JavaScript, TypeScript, React, Node.js, and cloud platforms, I build applications that are performant, maintainable, and scalable. I'm committed to writing clean code, following best practices, and continuously learning new technologies.</p>
-            <p>My experience spans from frontend development to backend services, cloud integration, and DevOps practices. I enjoy solving complex problems and creating user-friendly applications that leverage the power of cloud computing.</p>
+            <p class="lead">I'm a Cloud Security professional dedicated to protecting cloud infrastructure and digital assets. I specialize in designing and implementing comprehensive security solutions for cloud environments across AWS, Azure, and GCP platforms.</p>
+            <p>With extensive expertise in security architecture, identity management, threat detection, and compliance frameworks, I help organizations build resilient, secure cloud infrastructures. I'm committed to staying current with evolving security threats and implementing industry best practices.</p>
+            <p>My experience spans from security architecture design to incident response, vulnerability management, Kubernetes security, and compliance auditing. I enjoy solving complex security challenges and creating robust protection strategies that safeguard critical business assets in the cloud.</p>
             <p class="mt-4">
-              <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-primary mr-2">
+              <a href="https://github.com/kahiga581" target="_blank" class="btn btn-primary mr-2">
                 <span class="icon-github mr-2"></span>View GitHub
               </a>
               <a href="#contact-section" class="btn btn-outline-primary">Get In Touch</a>
             </p>
           </div>
           <div class="col-lg-6 order-3 pl-lg-5 order-lg-2">
-            <h3 class="mb-4">Technical Proficiency</h3>
+            <h3 class="mb-4">Security Expertise</h3>
             <div class="mb-5">
-              <strong class="text-black">JavaScript & TypeScript</strong>
+              <strong class="text-black">Kubernetes Security & Container Security</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 95%;">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <strong class="text-black">Certificate Management & TLS Security (cert-manager)</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 93%;">
+                  <span>93%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <strong class="text-black">Cloud Security Architecture (AWS, Azure, GCP, AKS)</strong>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
                   style="width: 94%;">
@@ -363,7 +424,16 @@
               </div>
             </div>
             <div class="mb-5">
-              <strong class="text-black">React & Frontend Frameworks</strong>
+              <strong class="text-black">Identity & Access Management (IAM, RBAC, MFA)</strong>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                  style="width: 92%;">
+                  <span>92%</span>
+                </div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <strong class="text-black">Security Monitoring & SIEM (CloudWatch, Security Hub)</strong>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
                   style="width: 91%;">
@@ -372,38 +442,11 @@
               </div>
             </div>
             <div class="mb-5">
-              <strong class="text-black">Node.js & Backend Development</strong>
+              <strong class="text-black">Serverless Security & DevSpace Security</strong>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
                   style="width: 89%;">
                   <span>89%</span>
-                </div>
-              </div>
-            </div>
-            <div class="mb-5">
-              <strong class="text-black">Cloud Platforms (AWS, Azure, GCP)</strong>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
-                  style="width: 87%;">
-                  <span>87%</span>
-                </div>
-              </div>
-            </div>
-            <div class="mb-5">
-              <strong class="text-black">Database & APIs (SQL, NoSQL, REST, GraphQL)</strong>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
-                  style="width: 90%;">
-                  <span>90%</span>
-                </div>
-              </div>
-            </div>
-            <div class="mb-5">
-              <strong class="text-black">DevOps & CI/CD (Git, Docker, Kubernetes)</strong>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
-                  style="width: 85%;">
-                  <span>85%</span>
                 </div>
               </div>
             </div>
@@ -422,8 +465,8 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 position-relative">
-            <h2 class="section-title text-center mb-5">Software Development Projects</h2>
-            <p class="text-center mb-5">Explore my software development work on GitHub: <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="text-primary">github.com/Hildahmuthoni/My-website</a></p>
+            <h2 class="section-title text-center mb-5">Cloud Security Projects</h2>
+            <p class="text-center mb-5">Explore my cloud security work on GitHub: <a href="https://github.com/kahiga581" target="_blank" class="text-primary">github.com/kahiga581</a></p>
           </div>
         </div>
 
@@ -432,30 +475,60 @@
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center p-4">
-                <span class="icon-code" style="font-size: 4rem; color: #14b8a6; display: block; margin-bottom: 1rem;"></span>
-                <h4 class="mt-3 mb-3">Web Applications</h4>
-                <p class="text-muted">Full-stack web applications built with React, Node.js, and modern JavaScript frameworks. Responsive designs and cloud-integrated solutions.</p>
-                <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+                <span class="icon-server" style="font-size: 4rem; color: #dc2626; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">Kubernetes Security</h4>
+                <p class="text-muted">Minikube and Kubernetes security configurations. Implementing secure container orchestration, network policies, and RBAC for Kubernetes clusters.</p>
+                <a href="https://github.com/kahiga581" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center p-4">
-                <span class="icon-cloud" style="font-size: 4rem; color: #14b8a6; display: block; margin-bottom: 1rem;"></span>
-                <h4 class="mt-3 mb-3">Cloud-Native Apps</h4>
-                <p class="text-muted">Applications designed for cloud deployment with serverless functions, containerization, and cloud service integration. Scalable and cost-effective solutions.</p>
-                <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+                <span class="icon-key" style="font-size: 4rem; color: #dc2626; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">Certificate Management</h4>
+                <p class="text-muted">Cert-manager implementations for automated TLS certificate provisioning and management in Kubernetes. Ensuring secure communication and encryption.</p>
+                <a href="https://github.com/kahiga581" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
               </div>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mb-4">
             <div class="card h-100 shadow-sm border-0">
               <div class="card-body text-center p-4">
-                <span class="icon-database" style="font-size: 4rem; color: #14b8a6; display: block; margin-bottom: 1rem;"></span>
-                <h4 class="mt-3 mb-3">APIs & Backend Services</h4>
-                <p class="text-muted">RESTful APIs, GraphQL endpoints, and backend services. Database design, authentication, and cloud-based data management solutions.</p>
-                <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+                <span class="icon-cloud" style="font-size: 4rem; color: #dc2626; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">Serverless Security</h4>
+                <p class="text-muted">Fission serverless functions security configurations for Kubernetes. Implementing secure serverless architectures with proper authentication and authorization.</p>
+                <a href="https://github.com/kahiga581" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <span class="icon-shield" style="font-size: 4rem; color: #dc2626; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">Azure Kubernetes Security</h4>
+                <p class="text-muted">AKS (Azure Kubernetes Service) security implementations. Configuring secure AKS clusters with network security, identity management, and compliance.</p>
+                <a href="https://github.com/kahiga581" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <span class="icon-lock" style="font-size: 4rem; color: #dc2626; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">Security Automation</h4>
+                <p class="text-muted">Automated security scanning, CI/CD security pipelines, and DevSpace security configurations. Implementing security best practices in development workflows.</p>
+                <a href="https://github.com/kahiga581" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100 shadow-sm border-0">
+              <div class="card-body text-center p-4">
+                <span class="icon-eye" style="font-size: 4rem; color: #dc2626; display: block; margin-bottom: 1rem;"></span>
+                <h4 class="mt-3 mb-3">Security Monitoring</h4>
+                <p class="text-muted">Security monitoring solutions, threat detection systems, and compliance automation. Building comprehensive security observability platforms for cloud environments.</p>
+                <a href="https://github.com/kahiga581" target="_blank" class="btn btn-sm btn-primary mt-3">View Repository</a>
               </div>
             </div>
           </div>
@@ -471,37 +544,37 @@
       <div class="container">
         <div class="row">
           <div class="col-12 mb-5 position-relative">
-            <h2 class="section-title text-center mb-5 text-white">Technologies & Tools</h2>
-            <p class="text-center text-white mb-5">Modern development stack with cloud integration</p>
+            <h2 class="section-title text-center mb-5 text-white">Security Technologies & Tools</h2>
+            <p class="text-center text-white mb-5">Comprehensive security stack for cloud protection</p>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-3 mb-4">
             <div class="text-white">
-              <span class="icon-code" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
-              <h4 class="mb-3">Frontend</h4>
-              <p class="text-white-50">React, JavaScript, TypeScript, HTML5, CSS3</p>
-            </div>
-          </div>
-          <div class="col-md-3 mb-4">
-            <div class="text-white">
               <span class="icon-server" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
-              <h4 class="mb-3">Backend</h4>
-              <p class="text-white-50">Node.js, Express, REST APIs, GraphQL</p>
+              <h4 class="mb-3">Kubernetes Security</h4>
+              <p class="text-white-50">Minikube, AKS, Kubernetes RBAC, Network Policies, Pod Security</p>
             </div>
           </div>
           <div class="col-md-3 mb-4">
             <div class="text-white">
-              <span class="icon-cloud" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
-              <h4 class="mb-3">Cloud Platforms</h4>
-              <p class="text-white-50">AWS, Azure, GCP, Serverless, Containers</p>
+              <span class="icon-key" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
+              <h4 class="mb-3">Certificate Management</h4>
+              <p class="text-white-50">cert-manager, TLS/SSL, Certificate Lifecycle, Encryption</p>
             </div>
           </div>
           <div class="col-md-3 mb-4">
             <div class="text-white">
-              <span class="icon-cog" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
-              <h4 class="mb-3">DevOps Tools</h4>
-              <p class="text-white-50">Git, Docker, Kubernetes, CI/CD, GitHub Actions</p>
+              <span class="icon-shield" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
+              <h4 class="mb-3">Cloud Security</h4>
+              <p class="text-white-50">AWS Security Hub, Azure Security Center, GCP Security Command Center</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="text-white">
+              <span class="icon-eye" style="font-size: 4rem; display: block; margin-bottom: 1rem; opacity: 0.9;"></span>
+              <h4 class="mb-3">Monitoring & SIEM</h4>
+              <p class="text-white-50">CloudWatch, CloudTrail, Security Information and Event Management</p>
             </div>
           </div>
         </div>
@@ -562,32 +635,32 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4">
-            <h3 class="footer-title">Hildah Muthoni</h3>
-            <p>Software Developer specializing in full-stack development and cloud-native applications.</p>
-            <p>Building innovative, scalable solutions with modern technologies.</p>
+            <h3 class="footer-title">kahiga king'ori</h3>
+            <p>Cloud Security Specialist dedicated to protecting cloud infrastructure and digital assets.</p>
+            <p>🔥 You Light My Fire(wall) - Securing cloud environments with expertise and innovation.</p>
           </div>
           <div class="col-md-4">
-            <h3 class="footer-title">Development Skills</h3>
+            <h3 class="footer-title">Security Expertise</h3>
             <ul class="list-unstyled">
-              <li>✓ Full-Stack Development (React, Node.js)</li>
-              <li>✓ Cloud-Native Applications</li>
-              <li>✓ RESTful APIs & GraphQL</li>
-              <li>✓ Database Design & Management</li>
-              <li>✓ DevOps & CI/CD</li>
+              <li>✓ Kubernetes Security & Container Security</li>
+              <li>✓ Cloud Security Architecture (AWS, Azure, GCP)</li>
+              <li>✓ Identity & Access Management</li>
+              <li>✓ Certificate Management & TLS Security</li>
+              <li>✓ Security Monitoring & Threat Detection</li>
             </ul>
           </div>
           <div class="col-md-4">
             <h3 class="footer-title">Connect</h3>
-            <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="social-circle p-2"><span class="icon-github"></span></a>
-            <a href="https://github.com/Hildahmuthoni/My-website.git" target="_blank" class="d-block mt-2 text-dark">github.com/Hildahmuthoni/My-website</a>
-            <p class="mt-3 text-muted">Let's create something amazing together!</p>
+            <a href="https://github.com/kahiga581" target="_blank" class="social-circle p-2"><span class="icon-github"></span></a>
+            <a href="https://github.com/kahiga581" target="_blank" class="d-block mt-2 text-dark">github.com/kahiga581</a>
+            <p class="mt-3 text-muted">🔥 Let's secure the cloud together!</p>
           </div>
         </div>
 
         <div class="row">
           <div class="col-12 text-center">
             <p>Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> Hildah Muthoni. All rights reserved.</p>
+            <script>document.write(new Date().getFullYear());</script> kahiga king'ori. All rights reserved.</p>
           </div>
         </div>
       </div>
